@@ -1,0 +1,20 @@
+{
+  "name": "zhenhuan-plugins",
+  "interface": {
+    "displayName": "甄嬛"
+  },
+  "plugins": [
+    {
+      "name": "zhenhuan",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zhenhuan"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Entertainment"
+    }
+  ]
+}

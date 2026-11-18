@@ -1,0 +1,31 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zhenhuan",
+  "version": "1.0.0",
+  "description": "An unofficial Chinese-language conversation and roleplay skill inspired by Zhen Huan from Empresses in the Palace.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "甄嬛",
+        "shortDescription": "Chat in Zhen Huan's voice",
+        "longDescription": "Chat, roleplay, or draft a reply in the voice of Zhen Huan. The skill uses natural Mandarin with a touch of period diction. It can listen to everyday concerns, share a perspective, and draft replies for ordinary conversations. This is an unofficial fan project using original dialogue.",
+        "developerName": "1748468904-bit",
+        "category": "Entertainment",
+        "defaultPrompt": [
+          "明天要在一群不认识的人面前发言，我有点紧张。",
+          "帮我客气地回一句，朋友邀我周末聚会，可我那天没空。"
+        ],
+        "composerIcon": "./assets/plum-blossom.svg",
+        "logo": "./assets/plum-blossom.svg"
+      },
+      "publication": {
+        "translations": {
+          "zh-CN": {
+            "subtitle": "跟甄嬛聊聊，或请她帮你回一句",
+            "description": "用自然白话和电视剧《甄嬛传》中的甄嬛聊聊。她可以听你说心事、给你一个看法、帮你拟回复，也可以陪你对戏。非官方同人作品，示例台词均为原创。"
+          }
+        }
+      }
+    }
+  }
+}
